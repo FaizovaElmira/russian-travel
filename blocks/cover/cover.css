@@ -1,4 +1,5 @@
 .cover {
+  font-family: 'Inter';
   padding: 0;
   margin: 0 auto 92px;
   color: #ffffff;
@@ -12,20 +13,20 @@
   background-position: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .cover {
     min-height: 640px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .cover {
     min-height: 480px;
     margin-bottom: 88px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .cover {
     min-height: 200px;
     margin-bottom: 64px;
