@@ -15,6 +15,6 @@
 
 ### Ссылка на проект
  
-[Путешествие по России](https://github.com/FaizovaElmira/russian-travel.git)
+[Путешествие по России](https://faizovaelmira.github.io/russian-travel/index.html)
 
 
