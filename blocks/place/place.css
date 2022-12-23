@@ -1,17 +1,19 @@
 .place {
-  font-family: 'Inter';
-  padding-bottom: 73px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 48px;
   column-gap: 40px;
   color: #ffffff;
   grid-template-areas: "title website" "image text";
+  margin: 0 auto;
+  width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
   .place {
-    max-width: 928px;
+    width: 100%;
     row-gap: 32px;
     padding-left: 0;
     padding-right: 0;
@@ -20,14 +22,13 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    max-width: 720px;
+    padding-bottom: 73px;
     row-gap: 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    width: 100%;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 32px;
     column-gap: 32px;
