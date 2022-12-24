@@ -4,4 +4,11 @@
   flex-direction: column;
   justify-content: flex-end;
   max-width: 484px;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    margin-left: 16px;
+  }
 }
